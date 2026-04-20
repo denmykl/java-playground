@@ -1,3 +1,10 @@
+//The bank accrues 7% interest on the deposit amount each month. Write a console program in
+//which the user enters the deposit amount and the number of months. The bank then calculates
+//the final deposit amount, taking into account the interest accrued each month.
+//
+//To calculate the amount, including interest, use a for loop. Let the deposit amount be a float.
+
+
 package basics;
 
 import java.util.Scanner;
@@ -22,6 +29,6 @@ public class DepositAmountCalculator {
         }
 
         System.out.printf("Total sum: %.2f\n", customerSum);
-
+        input.close();
     }
 }
